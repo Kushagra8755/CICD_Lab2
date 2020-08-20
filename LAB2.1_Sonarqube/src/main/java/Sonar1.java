@@ -24,7 +24,8 @@ public class Sonar1
     public static void main(String[] args) 
     { 
        int s;
-    	int n = 8; // Number of threads 
+       String av;
+    	int n = 11; // Number of threads 
         for (int i=0; i<n; i++) 
         { 
             MultithreadingDemo object = new MultithreadingDemo(); 
